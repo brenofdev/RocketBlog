@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 700px;
+
+    background-color: #290742;
+}
+
+.container-header {
+    display: flex;
+    
+}
+
+#logo {
+    width: 161.14px;
+    height: 36.54px;
+
+    padding: 68px 0px 67px 136.86px ;
+}
+
+nav {
+    padding: 76px 0px 0px 300px;
+}
+
+.on {
+    position: absolute;
+    width: 2px;
+    height: 17px;
+    margin-left: 35px;
+    margin-top: 2px;
+    background-color: #4FFF4B;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    width: 230px;
+    height: 44px;
+
+    top: 64px;
+    padding: 64px 135px 64px 290px;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+#input-search {
+    border-style: none;
+    background-color: #170027;
+    border-radius: 4px 0px 0px 4px;
+}
+
+:placeholder-shown {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+
+    padding-left: 25px;
+}
+
+#button-search {
+    width: 70px;
+    height: 44px;
+    border-style: none;
+    background-color: #9E6DC2;
+    border-radius: 0px 4px 4px 0px;
+}
+
+#icon-search {
+    width: 24px;
+    height: 24px;
+}
+
+.container-main {
+    display: flex;
+}
+
+.introduction {
+    padding: 0px 0px 0px 136px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 45.5px;
+    font-weight: bold;
+
+    color: #9E6DC2;
+}
+
+div main p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 3px;
+
+    padding-top: 16px;
+    padding-bottom: 35px;
+}
+
+#see-more {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    
+    color: #9E6DC2;  
+}
+
+#icon-right {
+    position: absolute;
+    padding-left: 8px;
+}
+
+.image-introduction {
+    float: right;
+    padding: 20px 0px 0px 176px;
+}
+
+.image-main {
+    width: 570px;
+    height: 346px;
+}
+
+.divisor {
+    width: 100%;
+    height: 6px;
+    background-color: #4FFF4B;
+}
+
+.container-home {
+    display: flex;
+}
+
+.main-home {
+    padding: 60px 0px 0px 170px;
+}
+
+.container-home main h2 {
+    color: #290742;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.container-home main p {
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    padding-top: 10px;
+}
+
+.aside-home {
+    padding: 64px 0px 0px 200px;
+}
+
+.aside-home div h2 {
+    color: #290742;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+}
+
+.aside-home div p {
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    padding: 0px 0px 16px 0px;
+}
+
+.post-1:nth-child(1){
+    padding-bottom: 48px;
+}
+
+.container-cards {
+    display: flex;
+    padding: 70px ;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cards img {
+    width: 409px;
+    height: 259.57px;
+}
+
+.container-cards p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    padding: 15px 0px 8px 0px;
+}
+
+.container-cards div h2 {
+    padding: 15px 0px 8px 0px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #290742;
+}
+
